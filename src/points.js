@@ -22,10 +22,7 @@ const points = (props) => {
       >
         <Tooltip className={tooltipClass(props.tooltipOptions)}>
           <span>
-            {props.edit && props.remove ?
-              'CLICK TO DELETE' :
-              `${pointsTooltip(result, props.tooltipOptions)}`
-            }
+            {JSON.stringify(p, null, '  ')}
           </span>
         </Tooltip>
       </Marker>

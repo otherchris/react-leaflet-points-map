@@ -38,6 +38,7 @@ class MapContainer extends React.Component {
         {...extraProps}
         bindPoint={this.state.bindPoint}
         setBindPoint={this.setBindPoint.bind(this)}
+        legend={this.props.legend}
       />
     );
   }

@@ -74,6 +74,18 @@
   left: 10px;
 }
 
+.map-legend {
+  position: absolute !important;
+  z-index: 1000;
+  bottom: 10px;
+  right: 10px;
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
 .geosuggest {
   position: absolute;
   z-index:1000;

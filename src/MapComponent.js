@@ -27,7 +27,7 @@ import './main.css';
 
 const defaultCenter = {
   type: 'Point',
-  coordinates: [-85.751528, 38.257222],
+  coordinates: [-87.625541, 41.883255],
 };
 
 const MapComponent = (props) => {
@@ -83,6 +83,9 @@ const MapComponent = (props) => {
             satButton :
             streetButton
           }
+        </div>
+        <div className="map-legend">
+          {props.legend}
         </div>
       </Map>
     </div>
